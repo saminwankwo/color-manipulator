@@ -1,0 +1,22 @@
+{
+  "name": "color-manipulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saminwankwo/color-manipulator.git"
+  },
+  "author": "Nwankwo Samuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saminwankwo/color-manipulator/issues"
+  },
+  "homepage": "https://github.com/saminwankwo/color-manipulator#readme",
+  "dependencies": {
+    "color": "^4.2.3"
+  }
+}
