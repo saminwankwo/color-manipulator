@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Color Manipulator Plugin Test</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="color-manipulator.js"></script>
+    <script src="color-manipulator-plugin.js"></script>
+  </head>
+  <body>
+    <div id="color-box" style="width: 100px; height: 100px; background-color: #ff0000;"></div>
+    <script>
+      $(document).ready(function() {
+        $('#color-box').colorManipulator({ lighten: 0.2, saturate: 0.2 });
+      });
+    </script>
+  </body>
+</html>
